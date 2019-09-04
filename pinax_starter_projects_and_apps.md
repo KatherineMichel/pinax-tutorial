@@ -6,9 +6,13 @@ Computers were created to help people save time. It takes a lot of time and work
 
 For more information about Django and code reusability, see the Django docs [Reusability Matters section](https://docs.djangoproject.com/en/dev/intro/reusable-apps/#reusability-matters).
 
+## Pinax Packages
+
+Pinax starter projects and apps are reusable packages.
+
 ## Common Website Patterns
 
-Pinax starter projects and apps are reusable packages that can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique. Here are a few examples:
+Pinax starter projects and apps can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique. Here are a few examples:
 
 * prototype
 * waitinglist

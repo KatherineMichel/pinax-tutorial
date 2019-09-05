@@ -6,9 +6,11 @@ Pinax starter projects, apps, and themes began as vanilla Django projects and we
 
 The Pinax starter project provides the Django project framework and the self-contained Pinax apps that come pre-installed as packages provide the functionality needed for the project.
 
-The Pinax ecosystem includes a handy command line interface tool called [Pinax CLI](https://github.com/pinax/pinax-cli) that can be used to install a Pinax starter project locally, just like a default Django project, in the directory of your choice, often the home directory. 
+A vanilla Django project can be created manually via the command line using the ```startproject``` command. 
 
-A default Django project can be created via the command line using the ```startproject``` command. The Pinax CLI uses the ```django.core.management.call_command()``` to automatically call the ```startproject``` command from within the Pinax CLI script, using the URL to the chosen Pinax starter project package stored on GitHub as the Django ```template``` instead of the default Django template.
+The Pinax ecosystem includes a handy command line interface tool called [Pinax CLI](https://github.com/pinax/pinax-cli) that can be used to install a Pinax starter project locally in place of a vanilla Django project.
+
+The Pinax CLI uses the ```django.core.management.call_command()``` to automatically call the ```startproject``` command from within the Pinax CLI script, using the Pinax starter project package stored on GitHub as the Django ```template``` instead of the default Django template.
 
 Once the Pinax starter project has been installed, the project dependencies, including the Pinax apps that have already been included in the project, can be installed.
 

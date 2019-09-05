@@ -2,7 +2,7 @@
 
 ## Creating a Vanilla Django Project from Scratch
 
-To create a vanilla Django project from scratch, first install Django, perhaps within a virtual environment. Django itself is a Python package published to PyPI and will be installed within the project's site-packages directory. You can now enter a command into the command line to create a vanilla Django project that will include the default Django templates. The project will be installed within your directory of choice, often the home directory, with the Django app(s) installed within the Django project.
+To create a vanilla Django project from scratch, first install Django, perhaps within a virtual environment. The Django source code package itself is a Python package published to PyPI and will be installed within the project's site-packages directory. You can now enter a command into the command line to create a vanilla Django project that will include the default Django templates. The project will be installed within your directory of choice, often the home directory, with the Django app(s) installed within the Django project.
 
 It's very likely that the code developed through this project will be used for this project only.
 

@@ -1,4 +1,4 @@
-# Overview of How a Pinax Project Works
+# How Pinax Projects and Apps Are Different
 
 Pinax starter projects, apps, and themes work differently than vanilla Django projects and apps. 
 

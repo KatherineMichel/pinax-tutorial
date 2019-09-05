@@ -1,4 +1,4 @@
-# Overview of How a Vanilla Django Project Works
+# How a Vanilla Django Project Works
 
 ## Creating a Vanilla Django Project from Scratch
 

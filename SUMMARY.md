@@ -10,6 +10,8 @@ Table of Contents
   * [How Pinax Projects and Apps are Different](how_pinax_projects_and_apps_are_different.md)
 * [Overview of Pinax Starter Project and App Architecture](overview_of_pinax_starter_project_and_app_architecture.md)
   * [Django Version and Project Name Variables](django_version_and_project_name_variables.md) 
+  * [Signals and Receivers](signals_and_receivers.md) 
+  * [Context Processors](context_processors.md) 
   * [Django User Accounts](django_user_accounts.md) 
 * [Getting Started!](getting_started.md)
   * [Command Line](command_line.md)

@@ -14,7 +14,9 @@ Once the Pinax starter project has been installed, the project dependencies, inc
 
 Depending on which Pinax starter project version you are using, each Pinax starter project contains a requirements.txt file or Pipfile listing the required dependency versions, in order to create a deterministic project build.
 
-In a vanilla Django project, the apps are installed within the project itself. Because Pinax apps are packages, they will not be installed within the project itself. They will instead be downloaded from the Python Package Index [PyPi](https://pypi.org) and installed in the project's site-packages directory, along with the other project packages. 
+In a vanilla Django project, the apps are installed within the project itself. Because Pinax apps are packages, they will not be installed within the project itself. They will instead be downloaded from the Python Package Index [PyPi](https://pypi.org) and installed in the project's site-packages directory, along with the other project packages. Because Pinax apps provide the website functionality, you might not need to install a new Django app.
+
+Once the packages are installed and listed in the ```INSTALLED_APPS``` section of the project's ```settings.py``` file, Python will use [sys.path](https://docs.python.org/3/library/sys.html#sys.path) in the ```sys``` module to locate the packages in the site-packages directory and use them as if installed directly in the project.
 
 ## Example Pinax Starter Project and Packages Directory Structure
 

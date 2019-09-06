@@ -16,6 +16,7 @@ Within the project-level ```__init__.py``` file, the ```default_app_config``` pa
 
 ```python
 default_app_config = "{{ project_name }}.apps.AppConfig"
+```
 
 The project-level ```apps.py``` assigns the ```{{ project_name }}``` to the ```AppConfig``` class ```name``` variable.
 
@@ -36,6 +37,7 @@ The following piece of code, found in the app-level root ```__init__.py``` works
 from pkgutil import extend_path
 __path__ = extend_path(__path__, __name__)  # noqa
 ```
+
 Within the app directory, the ```__init__.py``` sets the ```__version__``` and ```default_app_config``` path for the app.
 
 ```python

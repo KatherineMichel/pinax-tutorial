@@ -48,4 +48,18 @@ __version__ = pkg_resources.get_distribution("pinax-<app>").version
 default_app_config = "pinax.<app>.apps.AppConfig"
 ```
 
-The ```default_app_config``` path leads to the package ```apps.py```, where the package's ```name``` and ```label``` are set, and special settings are indicated. 
+The ```default_app_config``` path leads to the package ```apps.py```, where the package's ```name``` is set. The ```AppConfig.ready()``` method can also be overriden here, often to include special settings or receivers when Django starts running.
+
+```python
+from importlib import import_module
+
+from django.apps import AppConfig as BaseAppConfig
+
+
+class AppConfig(BaseAppConfig):
+
+    name = "pinax.<app>"
+
+    def ready(self):
+        import_module("pinax.<app>.receivers")
+```

@@ -1,4 +1,4 @@
-# Django Version and Project Name Variables
+# High Level Variables
 
 ## Django Version
 

@@ -18,7 +18,7 @@ Within the project-level ```__init__.py``` file, the ```default_app_config``` pa
 default_app_config = "{{ project_name }}.apps.AppConfig"
 ```
 
-The project-level ```apps.py``` assigns the ```{{ project_name }}``` to the ```AppConfig``` class ```name``` variable.
+The ```default_app_config``` path leads to the  project-level ```apps.py```, where ```{{ project_name }}``` is assigned to the ```AppConfig``` class ```name``` variable.
 
 ```python
 from django.apps import AppConfig as BaseAppConfig

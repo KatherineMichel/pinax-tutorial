@@ -2,7 +2,7 @@
 
 Pinax starter projects, apps, and themes work differently than vanilla Django projects and apps. 
 
-Pinax starter projects, apps, and themes began as vanilla Django projects and were developed to provide specific functionality. Afterward, instead of being used only for one project, they were packaged to reuse and share.
+Pinax starter projects, apps, and themes began as vanilla Django projects and were developed to provide specific functionality. Afterward, they were packaged to reuse and share.
 
 The Pinax starter project provides the Django project framework and the self-contained Pinax apps that come pre-installed as packages provide the functionality needed for the project.
 

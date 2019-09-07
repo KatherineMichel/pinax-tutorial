@@ -15,3 +15,14 @@ Several Pinax starter projects include the Django User Accounts package. Django 
 * Account deletion
 * Password reset and management
 
+## `settings.AUTH_USER_MODEL`
+
+In keeping with Django best practice for packages and user authentication, throughout Pinax starter projects and apps, the user is indicated through the model fields ```ForeignKey``` and ```settings.AUTH_USER_MODEL```. 
+
+Example
+
+```python
+user = models.ForeignKey(settings.AUTH_USER_MODEL, related_name="related_name", on_delete=models.CASCADE)
+```
+
+Although the user is referred to as ```user``` in this example, depending on the functionality of the app, the user might be referred to as something else, such as ```author```. However, regardless of what the user database field is named, the ```settings.AUTH_USER_MODEL``` in each app's user model links these variables together to form one user instance via ```django.contrib.auth``` in the settings.py file.

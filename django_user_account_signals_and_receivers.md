@@ -1,6 +1,32 @@
 # Django User Account Signals and Receivers
 
-Pinax starter projects that contain Django User Accounts app (Pinax Accounts, Documents, Social Auth, and Team Wiki) include a standard, project-level ```receivers.py``` file filled with receivers. When the Django User Accounts app detects a change,t he app sends a signal to the project that corresponds to a receiver.
+In Pinax starter projects that include Django User Accounts (Pinax Accounts, Documents, Social Auth, and Team Wiki), signals and receivers are used to communicate from the app to the project that an event has occurred. This is the Observer design pattern. In these Pinax starter projects, you will find a standard file named ```receivers.py```. In the Django User Accounts package, you will find a file named signals.py. 
+
+A signal is sent to the receiver when the following events have occurred:
+
+```python
+user_sign_up_attempt
+```
+
+```python
+user_signed_up
+```
+
+```python
+user_login_attempt
+```
+
+```python
+user_logged_in
+```
+
+```python
+password_changed
+```
+
+## Project-Level ```receivers.py```
+
+The project ```receivers.py``` contains the receivers:
 
 ```python
 from django.dispatch import receiver

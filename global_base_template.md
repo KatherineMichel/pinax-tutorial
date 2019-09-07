@@ -1,4 +1,4 @@
-# Global Templates
+# Global Base Template
 
 ## 'base.html'
 

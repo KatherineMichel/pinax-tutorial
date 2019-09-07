@@ -1,20 +1,17 @@
 # Context Processors
 
-### Project-Level ```context_processors.py```
-
 ```context_processors``` return dicts of items as context to be rendered within templates.
+
+## Project-Level ```context_processors.py``` and Sites Framework
 
 ```python
 from django.contrib.sites.models import Site
-from django.conf import settings as django_settings
-
+# More Code
 
 # More Code
 
 def settings(request):
     ctx = {
-        "ADMIN_URL": django_settings.ADMIN_URL,
-        "CONTACT_EMAIL": django_settings.CONTACT_EMAIL,
         # More code
     }
 
@@ -27,14 +24,13 @@ def settings(request):
     return ctx
 ```
 
-
-## Sites Framework and Fixtures
+## Project-Level ```settings.py``` and Sites Framework
 
 ```python
 SITE_ID = int(os.environ.get("SITE_ID", 1))
 ```
 
-## Project-Level ```sites.json``` Fixtures File
+## Project-Level ```sites.json``` Fixtures File and Sites Framework
 
 Pinax starter projects include a fixtures file, which contain data that Django can load directly into the database at the start of the project, rather than later, through the website itself.
 
@@ -59,7 +55,7 @@ Pinax starter projects include a fixtures file, which contain data that Django c
 ]
 ```
 
-## Passing Sites Variables into Templates
+## Templates and Sites Framework
 
 ```python
 {% blocktrans with site_name=current_site.name site_url=current_site %}
@@ -69,12 +65,10 @@ Pinax starter projects include a fixtures file, which contain data that Django c
 {{ site_name }}
 ```
 
-
-
-### Project-Level ```context_processors.py```
+## Project-Level ```context_processors.py``` and ```pinax_apps```
 
 ```python
-from django.contrib.sites.models import Site
+# More code
 from django.conf import settings as django_settings
 
 
@@ -94,8 +88,6 @@ def package_names(names):
     return apps
 ```
 
-Findng the right app- Alternate
-
 ```python
 def settings(request):
     ctx = {
@@ -108,4 +100,6 @@ def settings(request):
         "pinax_apps": package_names(filter(pinax_apps_filter, django_settings.INSTALLED_APPS))
     }
     # More Code
+    
+    return ctx
 ```

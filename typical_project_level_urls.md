@@ -1,8 +1,6 @@
-# Typical Project-Level URLs
+# Typical Project-Level URLs and Homepage
 
-The URLs of the Pinax apps included in the Pinax starter project will be included in the ```urlpatterns``` in the ```urls.py``` file.
-
-Pinax starter project ```urlpatterns``` also include admin URLs, and often Django User Account URLs, if Django User Account app is used in the project. 
+Pinax starter project ```urls.py``` file ```urlpatterns``` will include the URLs of the Pinax apps included in the Pinax starter project. Also included will be admin URLs, and possibly Django User Account app URLs, if Django User Account app is used in the project. 
 
 Note, ```homepage.html``` is named ```home``` so that ```homepage.html``` can be more conveniently referred to as ```home``` in other parts of the code, such as the navbar.
 
@@ -21,7 +19,3 @@ urlpatterns = [{% if django_version >= "2" %}
     url(r"^account/", include("account.urls")),
 {% endif %}]
 ```
-
-## Typical App-Level URLs
-
-App-level URLs vary greatly based on the app.

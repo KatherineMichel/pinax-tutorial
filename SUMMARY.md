@@ -13,7 +13,7 @@ Table of Contents
   * [Signals and Receivers](signals_and_receivers.md) 
   * [Context Processors](context_processors.md) 
   * [Typical Project-Level URLs](typical_project_level_urls.md)
-  * [Global Templates](global_templates.md) 
+  * [Global Base Template](global_base_template.md) 
 * [Django User Accounts](django_user_accounts.md) 
   * [Django User Accounts Signals and Receivers](django_user_accounts_signals_and_receivers.md) 
   * [Django User Account Templates](django_user_account_templates.md)

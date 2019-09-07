@@ -12,6 +12,7 @@ Table of Contents
   * [High Level Variables](high_level_variables.md) 
   * [Signals and Receivers](signals_and_receivers.md) 
   * [Context Processors](context_processors.md) 
+  * [Global Templates](global_templates.md) 
 * [Django User Accounts](django_user_accounts.md) 
   * [Django User Accounts Signals and Receivers](django_user_accounts_signals_and_receivers.md) 
 * [Getting Started!](getting_started.md)

@@ -10,6 +10,7 @@ Table of Contents
   * [How Pinax Projects and Apps are Different](how_pinax_projects_and_apps_are_different.md)
 * [Overview of Pinax Starter Project and App Architecture](overview_of_pinax_starter_project_and_app_architecture.md)
   * [High Level Variables](high_level_variables.md) 
+  * [django-appconf](django-appconf.md)   
   * [Signals and Receivers](signals_and_receivers.md) 
   * [Context Processors](context_processors.md) 
   * [Global Base Template](global_base_template.md)

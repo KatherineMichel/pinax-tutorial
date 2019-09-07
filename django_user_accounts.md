@@ -6,3 +6,12 @@ Django User Accounts is a Pinax package used for account management. Django User
 
 Several Pinax starter projects include the Django User Accounts package. Django user Accounts can also be integrated into non-Pinax projects.
 
+## What is Included in Django User Accounts?
+
+* Anonymous user account creation
+* User account creation
+* Confirmation email and signup code
+* Signup, login, logout, and other views
+* Account deletion
+* Password reset and management
+

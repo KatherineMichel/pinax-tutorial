@@ -23,4 +23,7 @@ Table of Contents
   * [Command Line](command_line.md)
   * [Setting Up Your Development Environment](setting_up_your_development_environment.md)
   * [Getting A Pinax Starter Project Up and Running](getting_a_pinax_starter_project_up_and_running.md)
+* [Your first Pinax project](your_first_pinax_project.md)  
+  
+  
 

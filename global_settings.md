@@ -1,4 +1,4 @@
-# Settings
+# Global Settings
 
 <!--
 WEBPACK_LOADER = {

@@ -21,6 +21,7 @@ Table of Contents
   * [Global Base Template](global_base_template.md)
   * [Basic Project URLs and Templates](basic_project_urls_and_templates.md)
   * [Basic App URLs and Templates](basic_app_urls_and_templates.md) 
+  * [Tests](tests.md)
 * [Django User Accounts](django_user_accounts.md) 
   * [Django User Accounts Signals and Receivers](django_user_accounts_signals_and_receivers.md) 
   * [Django User Account Templates](django_user_account_templates.md)

@@ -13,6 +13,8 @@ Table of Contents
   * [Pinax Apps](pinax_apps.md)
 * [Overview of Pinax Starter Project and App Architecture](overview_of_pinax_starter_project_and_app_architecture.md)
   * [High Level Variables](high_level_variables.md) 
+  * [Global Settings](global_settings.md) 
+  * [Project Specific Settings](project_specific_settings.md) 
   * [django-appconf](django-appconf.md)   
   * [Signals and Receivers](signals_and_receivers.md) 
   * [Context Processors](context_processors.md) 

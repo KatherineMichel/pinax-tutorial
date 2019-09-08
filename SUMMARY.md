@@ -21,6 +21,7 @@ Table of Contents
   * [Global Base Template](global_base_template.md)
   * [Basic Project URLs and Templates](basic_project_urls_and_templates.md)
   * [Basic App URLs and Templates](basic_app_urls_and_templates.md) 
+  * [JavaScript Overview](javascript_overview.md) 
   * [Commonly Asked Questions](commonly_asked_questions.md)
   * [Tests](tests.md)
 * [Django User Accounts](django_user_accounts.md) 
@@ -35,9 +36,3 @@ Table of Contents
   * [Contributing](contributing.md)
   * [Release Process](release_process.md)
 * [Pinax History](pinax_history.md)
-  
-  
-
-  
-  
-

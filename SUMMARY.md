@@ -29,6 +29,9 @@ Table of Contents
 * [Your first Pinax project](your_first_pinax_project.md)  
 * [Where to Go From Here](where_to_go_from_here.md)
   * [Contributing](contributing.md)
+  * [Release Process](release_process.md)
+  
+  
 
   
   

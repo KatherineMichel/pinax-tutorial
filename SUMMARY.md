@@ -30,6 +30,7 @@ Table of Contents
 * [Where to Go From Here](where_to_go_from_here.md)
   * [Contributing](contributing.md)
   * [Release Process](release_process.md)
+* [Pinax History](pinax_history.md)
   
   
 

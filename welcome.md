@@ -16,10 +16,3 @@ In this tutorial, you will learn:
 * How to learn more and contribute
 * And more!
 
-## Contributing
-
-Contributions to Pinax are welcome, and there are many ways to contribute. Check out the Contributing section at the end of this tutorial for more information.
-
-## Learn More
-
-We have plenty of resources if you are interested in learning more. You'll find them in the Learn More section at the end of this tutorial. 

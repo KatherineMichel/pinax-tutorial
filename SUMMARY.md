@@ -32,6 +32,4 @@ Table of Contents
   * [Getting A Pinax Starter Project Up and Running](getting_a_pinax_starter_project_up_and_running.md)
 * [Your first Pinax project](your_first_pinax_project.md)  
 * [Where to Go From Here](where_to_go_from_here.md)
-  * [Contributing](contributing.md)
-  * [Release Process](release_process.md)
 * [Pinax History](pinax_history.md)

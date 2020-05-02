@@ -18,7 +18,6 @@ Table of Contents
   * [High Level Variables](high_level_variables.md) 
   * [Global Settings](global_settings.md) 
   * [Project Specific Settings](project_specific_settings.md) 
-  * [django-appconf](django-appconf.md)   
   * [Signals and Receivers](signals_and_receivers.md) 
   * [Context Processors](context_processors.md) 
   * [Global Base Template](global_base_template.md)

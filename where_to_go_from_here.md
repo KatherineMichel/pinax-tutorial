@@ -6,8 +6,8 @@ We have plenty of resources if you are interested in learning more. You'll find 
 
 ## Contributing
 
-Contributions to Pinax are welcome and there are many ways to contribute. Start out by reading our [Contributing](https://github.com/pinax/.github/blob/master/CONTRIBUTING.md) documentation. 
+Contributions to Pinax are welcome and there are many ways to contribute. Start out by reading our [CONTRIBUTING.md](https://github.com/pinax/.github/blob/master/CONTRIBUTING.md) file in our global community health file repo. 
 
 ## Release
 
-Pinax has had several major releases. Our general release process is documented in the [RELEASE.md](https://github.com/pinax/.github/blob/master/RELEASE.md) file in our glocal community health file repo and historical release plans can be found in the [Pinax Wiki](https://github.com/pinax/pinax/wiki/).
+Pinax has had several major releases. Our general release process is documented in the [RELEASE.md](https://github.com/pinax/.github/blob/master/RELEASE.md) file in our global community health file repo and historical release plans can be found in the [Pinax Wiki](https://github.com/pinax/pinax/wiki/).

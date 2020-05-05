@@ -8,7 +8,7 @@ Table of Contents
 * [Why Use Pinax?](why_use_pinax.md)
 * [Typical Django Project Versus Pinax Project](typical_django_project_versus_pinax_project.md)
 * [Pinax Starter Projects](pinax_starter_projects.md)
-* [Pinax Starter Project Files](pinax_starter_project-files.md)
+* [Pinax Starter Project Files](pinax_starter_project_files.md)
 * [Pinax Apps](pinax_apps.md)
 * [Pinax App Files](pinax_app_files.md)
 * [Overview of Pinax Starter Project and App Architecture](overview_of_pinax_starter_project_and_app_architecture.md)

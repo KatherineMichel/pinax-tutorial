@@ -1,4 +1,4 @@
-# How a Typical Django Project Works Versus How a Pinax Project Works
+# Typical Django Project Versus Pinax Project
 
 ## Creating a Django Project from Scratch
 

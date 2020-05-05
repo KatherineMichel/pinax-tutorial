@@ -2,16 +2,12 @@
 
 ## Learn More
 
-We have plenty of resources if you are interested in learning more. You'll find them in the Learn More section at the end of this tutorial. 
+We have plenty of resources if you are interested in learning more. You'll find them in the [Learn More](learn_more.md) section at the end of this tutorial. 
 
 ## Contributing
 
-Contributions to Pinax are welcome and there are many ways to contribute. Start out by reading our Contributing documentation. 
+Contributions to Pinax are welcome and there are many ways to contribute. Start out by reading our [Contributing](https://github.com/pinax/.github/blob/master/CONTRIBUTING.md) documentation. 
 
 ## Release
 
-Pinax has had several major releases. 
-
-<!--
-Check out the most recent proposed release process in the [Pinax 19.xx Proposed Process](https://github.com/pinax/pinax/wiki/Pinax-19.xx-Proposed-Process) wiki page. You can also find information about past releases in our [Historical Release Links](https://github.com/pinax/pinax/wiki/Historical-Release-Links) wiki page.
--->
+Pinax has had several major releases. Our general release process is documented in the [RELEASE.md](https://github.com/pinax/.github/blob/master/RELEASE.md) file in our glocal community health file repo and historical release plans can be found in the [Pinax Wiki](https://github.com/pinax/pinax/wiki/).

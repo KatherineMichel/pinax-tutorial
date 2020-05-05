@@ -1,6 +1,6 @@
 # Pinax Starter Project Files
 
-Within Pinax starter projects and apps, you will find all of the files commonly found in Django projects and apps, plus some specific to Pinax.
+Within Pinax starter projects, you will find all of the files commonly found in Django projects, plus some specific to Pinax.
 
 ## Configuration Files
 

@@ -26,8 +26,6 @@ The Pinax starter project code can be found in the Pinax GitHub organization acc
 
 Pinax starter projects inherit from one another, meaning that a Pinax starter project includes the packages of a project it inherits from.
 
-See our Contributing documentation for information about how inheritance is implemented.
-
 ### Pinax Starter Projects, Django, and Templates
 
 All Pinax starter projects inherit from pinax-project-zero, which includes Django 2.0 and pinax-templates app. 

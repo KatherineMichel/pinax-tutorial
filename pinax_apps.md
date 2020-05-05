@@ -1,6 +1,6 @@
 # Pinax Apps
 
-The self-contained Pinax apps provide the functionality.
+The stand-alone Pinax apps provide the functionality.
 
 ## Pinax App Code
 

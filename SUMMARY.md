@@ -25,7 +25,7 @@ Table of Contents
 * [Additional](additional.md) 
   * [Signals and Receivers](signals_and_receivers.md) 
   * [JavaScript Overview](javascript_overview.md) 
-  * [Tests](tests.md)
+  * [Migration and Unit Tests](migration_and_unit_tests.md)
   * [Commonly Asked Questions](commonly_asked_questions.md)
 * [Connecting Pinax Starter Projects and Apps](connecting_pinax_starter_projects_and_apps.md)
 * [Django User Accounts](django_user_accounts.md) 

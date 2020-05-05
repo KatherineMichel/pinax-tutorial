@@ -6,5 +6,7 @@ Pinax uses many of Django's built-in patterns, as well as some patterns specific
 
 ### django-appconf
 
+Pinax uses a helper class called [django-appconf](https://django-appconf.readthedocs.io) to handle Django app packaging defaults "gracefully."
+
 ### Signals and Receivers
 

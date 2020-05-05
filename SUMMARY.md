@@ -5,7 +5,7 @@ Table of Contents
 * [Welcome](welcome.md)
 * [Python, Django, and Pinax History](python-django-and-pinax-history.md)
 * [What is Pinax?](what_is_pinax.md)
-* [Why Use Pinax?](what_use_pinax.md)
+* [Why Use Pinax?](why_use_pinax.md)
 * [Typical Django Project Versus Pinax Project](typical_django_project_versus_pinax_project.md)
 * [Pinax Starter Projects and Apps Reference](pinax_starter_projects_and_apps_reference.md)
   * [Pinax Starter Projects](pinax_starter_projects.md)

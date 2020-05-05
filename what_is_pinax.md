@@ -2,20 +2,15 @@
 
 ## The Pinax Ecosystem
 
-Pinax is an open-source ecosystem of reusable Django starter projects, apps, and themes for building websites.
+Pinax is an open-source ecosystem of reusable Django starter projects, apps, and templates for building websites.
 
 Pinax code can be found in the [Pinax GitHub organization](https://github.com/pinax) account, where Pinax development takes place. 
 
-Pinax primarily consists of:
-* Pinax Starter Projects, found in the branches of the [Pinax Starter Projects](https://github.com/pinax/pinax-starter-projects) repo; Pinax Starter Projects are Django projects that follow common website patterns
-* [pinax-cli](https://github.com/pinax/pinax-cli), a command line interface (CLI) that can be used to install these starter projects
-* Django apps that provide a variety of functionality
-* [pinax-templates](https://github.com/pinax/pinax-templates), a group of semantic templates made for use with Pinax
+### Pinax Starter Projects
 
-## Pinax Starter Projects and Common Website Patterns
+Pinax Starter Projects are Django projects that can be found in the [Pinax Starter Projects](https://github.com/pinax/pinax-starter-projects) repo. Pinax Starter Projects can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique.
 
-Pinax starter projects and apps can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique. Here are a few examples:
-
+Here are a few examples:
 * prototype
 * waitinglist
 * blog
@@ -24,6 +19,20 @@ Pinax starter projects and apps can be used to bootstrap the most common types o
 * conference website
 * learning management system
 * and more!
+
+### Pinax Apps
+
+### Pinax CLI
+
+[pinax-cli](https://github.com/pinax/pinax-cli) is a command line interface (CLI) that can be used to install Pinax Starter Projects.
+
+### Pinax Templates
+
+[pinax-templates](https://github.com/pinax/pinax-templates) are semantic templates made for use with Pinax.
+
+## Pinax Packages
+
+Pinax starter projects and apps are reusable packages. The Pinax starter project is a Django project framework that can be installed using the Pinax CLI (Command Line Tool). The self-contained Pinax apps that come pre-installed as packages provide the functionality needed for the project.
 
 ## Ways to Use Pinax
 

@@ -30,10 +30,6 @@ Here are a few examples:
 
 [pinax-templates](https://github.com/pinax/pinax-templates) are semantic templates made for use with Pinax.
 
-## Pinax Packages
-
-Pinax starter projects and apps are reusable packages. The Pinax starter project is a Django project framework that can be installed using the Pinax CLI (Command Line Tool). The self-contained Pinax apps that come pre-installed as packages provide the functionality needed for the project.
-
 ## Ways to Use Pinax
 
 Because Pinax is made with the open-source programming language Python and web development framework Django, Pinax is fully-customizable. 

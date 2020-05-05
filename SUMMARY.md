@@ -10,7 +10,7 @@ Table of Contents
 * [Pinax Starter Projects](pinax_starter_projects.md)
 * [Pinax Starter Project Files](pinax_starter_project-files.md)
 * [Pinax Apps](pinax_apps.md)
-* [Pinax App Files](pinax_app-files.md)
+* [Pinax App Files](pinax_app_files.md)
 * [Connecting Pinax Starter Projects and Apps](connect-pinax_starter_projects_and_apps.md)
 * [Overview of Pinax Starter Project and App Architecture](overview_of_pinax_starter_project_and_app_architecture.md)
   * [High Level Variables](high_level_variables.md) 

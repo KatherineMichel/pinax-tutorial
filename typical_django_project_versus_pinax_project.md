@@ -39,9 +39,11 @@ directory_name/
 |-- venv/ (if used)
 ``` 
 
-# How Pinax Projects and Apps Are Different
+## How Pinax Projects and Apps Are Different
 
 Pinax starter projects, apps, and themes work differently than typical Django projects and apps, because they began as regular Django projects, were developed to provide specific functionality, then packaged to reuse and share. 
+
+The Pinax starter project provides the Django project framework and the self-contained Pinax apps that come pre-installed as packages provide the functionality needed for the project.
 
 A typical Django project can be created manually via the command line using the ```startproject``` command. 
 
@@ -97,3 +99,13 @@ directory_name/
 |    |-- manage.py
 |-- venv/ (if used)
 ```
+
+## How to Locate Your Packages
+
+Locating and looking through your project packages installed on your computer can help you to better understand how your project, and Python in general, work. You can also make changes within your package locally to test or customize your project.
+
+### Hidden Files
+
+Packages are stored in a hidden directory that you need to unhide in order to find the packages. Hidden folders and files start with a dot and are called dot folders and files.
+
+On a Mac, one easy way to unhide and hide hidden folders and files is to toggle back and forth using the key combination ```command + shift + .```.

@@ -23,7 +23,6 @@ Table of Contents
   * [Global Settings](global_settings.md) 
   * [Project Specific Settings](project_specific_settings.md) 
 * [Additional](additional.md) 
-  * [Signals and Receivers](signals_and_receivers.md) 
   * [JavaScript Overview](javascript_overview.md) 
   * [Migration and Unit Tests](migration_and_unit_tests.md)
   * [Commonly Asked Questions](commonly_asked_questions.md)

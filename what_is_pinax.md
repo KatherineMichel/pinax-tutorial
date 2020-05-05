@@ -6,7 +6,7 @@ Pinax is an open-source ecosystem of reusable Django starter projects, apps, and
 
 ### Pinax Starter Projects
 
-Pinax Starter Projects are Django projects that can be found in the [Pinax Starter Projects](https://github.com/pinax/pinax-starter-projects) repo. Pinax Starter Projects can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique.
+Pinax starter projects are Django projects that can be found in the [Pinax starter projects](https://github.com/pinax/pinax-starter-projects) repo. Pinax starter projects can be used to bootstrap the most common types of websites. You only need to write the parts that make your project unique.
 
 Here are a few examples:
 * prototype
@@ -20,11 +20,11 @@ Here are a few examples:
 
 ### Pinax Apps
 
-Pinax apps are stand-alone Django apps that provide specific functionality. Pinax apps come pre-installed as packages in Pinax Starter Projects, or can be used independently.
+Pinax apps are stand-alone Django apps that provide specific functionality. Pinax apps come pre-installed as packages in Pinax starter projects, or can be used independently.
 
 ### Pinax CLI
 
-[pinax-cli](https://github.com/pinax/pinax-cli) is a command line interface (CLI) that can be used to install Pinax Starter Projects.
+[pinax-cli](https://github.com/pinax/pinax-cli) is a command line interface (CLI) that can be used to install Pinax starter projects.
 
 ### Pinax Templates
 

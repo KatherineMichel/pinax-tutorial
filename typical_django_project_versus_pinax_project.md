@@ -1,5 +1,11 @@
 # Typical Django Project Versus Pinax Project
 
+## Code Reuse
+
+When developers write code that solves a problem, they often package and publish the code in a public package index so that other developers can reuse the code in their own projects. This saves other developers from having to repeat the same work. 
+
+Reusability is an important philosophy in the Python and Django communities. For more information about Django and code reusability, see the Django docs [Reusability Matters section](https://docs.djangoproject.com/en/dev/intro/reusable-apps/#reusability-matters).
+
 ## Creating a Typical Django Project from Scratch
 
 When a typical Django project is created from scratch, Django is installed first, perhaps within a virtual environment. The Django source code package itself is a Python package published to PyPI that will be downloaded from PyPI and installed in the project's site-packages directory. The author can now manually enter the ```startproject``` command into the command line to create a Django project that will include the default Django templates. The project will now be installed within the author's directory of choice, often the home directory, with the Django app(s) installed within the Django project.
@@ -29,7 +35,7 @@ directory_name/
 
 ## How Pinax Projects and Apps Are Different
 
-The Pinax ecosystem includes a handy command line interface tool called [Pinax CLI](https://github.com/pinax/pinax-cli) that can be used to install a Pinax starter project locally in place of a regular Django project.
+The Pinax ecosystem includes a handy command line interface tool [pinax-cli](https://github.com/pinax/pinax-cli) that can be used to install a Pinax starter project locally in place of a regular Django project.
 
 The Pinax CLI uses the ```django.core.management.call_command()``` to automatically call the ```startproject``` command from within the Pinax CLI script, using the Pinax starter project package stored on GitHub as the Django ```template``` instead of the default Django template.
 
@@ -86,8 +92,12 @@ directory_name/
 
 Locating and looking through your project packages installed on your computer can help you to better understand how your project, and Python in general, work. You can also make changes within your package locally to test or customize your project.
 
-### Hidden Files
+### Hidden Files on a Mac
 
 Packages are stored in a hidden directory that you need to unhide in order to find the packages. Hidden folders and files start with a dot and are called dot folders and files.
 
 On a Mac, one easy way to unhide and hide hidden folders and files is to toggle back and forth using the key combination ```command + shift + .```.
+
+### Hidden Files on Windows
+
+### Hidden Files on Linux

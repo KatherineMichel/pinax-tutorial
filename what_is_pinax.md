@@ -28,7 +28,7 @@ Here are a few examples:
 
 ### Pinax Apps
 
-Pinax apps are stand-alone Django apps that provide specific functionality. Pinax apps come pre-installed as packages in Pinax starter projects, or can be used independently.
+Pinax apps are stand-alone Django apps that provide specific functionality. Pinax apps come pre-installed as packages in Pinax starter projects, or can be used independently. Pinax apps can be on [PyPI](https://pypi.org/search/?q=pinax) or in app repos in the [Pinax GitHub organization](https://github.com/pinax/).
 
 ### Pinax CLI
 

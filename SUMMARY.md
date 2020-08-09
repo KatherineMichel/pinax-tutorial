@@ -28,7 +28,6 @@ Table of Contents
 * [Django User Accounts](django_user_accounts.md) 
   * [Django User Accounts Signals and Receivers](django_user_accounts_signals_and_receivers.md) 
   * [Django User Account Templates](django_user_account_templates.md)
-* [Pinax Stripe](pinax_stripe.md) 
 * [Getting Started!](getting_started.md)
   * [Setting Up Your Development Environment](setting_up_your_development_environment.md)
   * [Getting A Pinax Starter Project Up and Running](getting_a_pinax_starter_project_up_and_running.md)

@@ -10,3 +10,5 @@ Pinax uses a helper class called [django-appconf](https://django-appconf.readthe
 
 ### Signals and Receivers
 
+### Django User Accounts
+

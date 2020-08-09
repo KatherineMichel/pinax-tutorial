@@ -31,6 +31,7 @@ Table of Contents
 * [Getting Started!](getting_started.md)
   * [Setting Up Your Development Environment](setting_up_your_development_environment.md)
   * [Getting A Pinax Starter Project Up and Running](getting_a_pinax_starter_project_up_and_running.md) 
+  * [Extending Your Project](extending_your_project.md) 
 * [Where to Go From Here](where_to_go_from_here.md)
   * [Learn More](learn_more.md)
 * [Pinax History](pinax_history.md)

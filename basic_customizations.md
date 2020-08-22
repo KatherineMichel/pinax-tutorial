@@ -1,10 +1,8 @@
-# Commonly Asked Questions
+# Basic Customizations
 
 Answers to questions commonly asked about Pinax
 
-## Basic Customizations
-
-### Change the Website Name
+## Change the Website Name
 
 <!--
 {% block site_brand %}<a href="{% url "home" %}">{{ SITE_NAME }}</a>{% endblock %}
@@ -16,7 +14,7 @@ A ```SITE_NAME```, if it exists, will be inserted into the ```base.html``` templ
 {% if SITE_NAME %}{{ SITE_NAME }}
 ```
 
-### Change the Language Code
+## Change the Language Code
 
 A language code will be inserted into the ```base.html``` template via the ```LANGUAGE_CODE``` variable in the ```settings.py``` file.
 
@@ -24,7 +22,7 @@ A language code will be inserted into the ```base.html``` template via the ```LA
 {{ LANGUAGE_CODE }}
 ```
 
-### Change the Page Title
+## Change the Page Title
 
 <!--
 base.html
@@ -37,7 +35,7 @@ two of {% endblock %}
         <title>{% block head_title_base %}{% if SITE_NAME %}{{ SITE_NAME }} | {% endif %}{% block head_title %}{% endblock %}{% endblock %}</title>
 ```
 
-### Navbar
+## Navbar
 
 The ```_nav.html``` template fragment included in the global ```base.html``` template provides the navbar markup. 
 
@@ -48,9 +46,9 @@ The ```_nav.html``` template fragment included in the global ```base.html``` tem
 </ul>
 ```
 
-### Remove or Edit the Footer
+## Remove or Edit the Footer
 
-#### Company Name
+### Company Name
 
 <!--
 include footer
@@ -81,13 +79,13 @@ https://docs.djangoproject.com/en/2.1/ref/templates/builtins/#now
 </div>
 ```
 
-### Add Scripts
+## Add Scripts
 
-### Change the Styling
+## Change the Styling
 
-### Add Translations
+## Add Translations
 
-### Overriding Global Settings with Project Settings
+## Overriding Global Settings with Project Settings
 
 Pinax apps often include custom settings that can be used to override global settings.
 
@@ -108,26 +106,3 @@ Reference custom setting
 ```python
 settings.CUSTOM_SETTING
 ```
-
-## Troubleshooting
-
-### `DisallowedHost`
-
-```python
-DisallowedHost at /
-Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
-```
-
-### My Templates Aren't Working Properly
-
-```python
-npm install
-pip install -r requirements.txt
-./manage.py migrate
-./manage.py loaddata sites
-npm run dev
-```
-
-Browse to http://localhost:3000/
-
-### Collect Static

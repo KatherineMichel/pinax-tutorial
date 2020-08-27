@@ -18,6 +18,8 @@ Pinax uses [Django User Accounts](https://github.com/pinax/django-user-accounts)
 
 ### Signals and Receivers
 
+Pinax uses Django's [Signals and Receivers](https://docs.djangoproject.com/en/dev/topics/signals/) framework to communicate that events have taken place.
+
 ## Packaging Utilities
 
 ### django-appconf

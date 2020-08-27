@@ -10,9 +10,11 @@ Pinax apps typically used Django's convenient [Class Based Views](https://docs.d
 
 ### contenttypes framework
 
-Pinax typically uses Django's [contenttypes framework](https://docs.djangoproject.com/en/dev/ref/contrib/contenttypes/) to manage models and their relationships.
+Pinax apps typically uses Django's [contenttypes framework](https://docs.djangoproject.com/en/dev/ref/contrib/contenttypes/) to manage models and their relationships.
 
 ### Django User Accounts
+
+Pinax uses [Django User Accounts](https://github.com/pinax/django-user-accounts) to extend Django's default user model, globally. Reusable apps won't work together if a custom user model is used in one of the apps.
 
 ### Signals and Receivers
 
